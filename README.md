@@ -7,10 +7,12 @@ Arduino thing which keeps plants wet
 - Arduino cloud IoT dashboard
 
 Each plant has a moisture sensor, relay and pump.
-ESP runs main code, controls pumps, etc.
-Nano reads analog values from moisture sensor, sends CSV to ESP over serial
 
-Dashboard in Arduino cloud allows pump_runtime and low_moisture config for each plant
+ESP runs main code, controls pumps, etc.
+
+Nano reads analog values from moisture sensor, sends CSV to ESP over serial.
+
+Dashboard in Arduino cloud allows pump runtime and low moisture config for each plant
 
 <img src="https://github.com/sleepycod/wetPlant/assets/17673141/cb7e2cb6-5af6-46f8-8931-ac67736ba58d" width="450">
 
